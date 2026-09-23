@@ -37,8 +37,14 @@
           "id": "a01",
           "time": "17:00",
           "title": "Llegada a Manizales",
-          "note": "Avisar al hotel para el transporte desde el aeropuerto.",
+          "note": "Avisar al hotel del desierto para el transporte desde el aeropuerto.",
           "provider": "vuelo"
+        },
+        {
+          "id": "a-xysv8m",
+          "title": "Hotel Airbnb",
+          "time": "17:01",
+          "provider": "booking"
         }
       ]
     },
@@ -218,6 +224,11 @@
           "id": "a18",
           "title": "Bus a Bogotá",
           "provider": "bus"
+        },
+        {
+          "id": "a-6zqd23",
+          "title": "Concierto Calvin Harris",
+          "time": "19:19"
         }
       ]
     },
@@ -228,7 +239,8 @@
       "activities": [
         {
           "id": "a19",
-          "title": "Tour de vino"
+          "title": "Tour de vino",
+          "provider": "getyourguide"
         }
       ]
     },
@@ -241,8 +253,8 @@
           "id": "a20",
           "time": "12:00",
           "title": "Tren de la Sabana",
-          "note": "Falta reservar.",
-          "pending": true
+          "note": "",
+          "pending": false
         }
       ]
     },
@@ -276,16 +288,12 @@
       "text": "Pendiente: reservar el bus a Tunja."
     },
     {
-      "id": "n02",
-      "text": "Pendiente: reservar el tren del 15 de noviembre (12 pm)."
-    },
-    {
       "id": "n03",
       "text": "Avisar al hotel de Manizales la hora de llegada para el transporte."
     },
     {
-      "id": "n04",
-      "text": "Rate + comisión: rate × 20 % (200). La comisión (fee) queda por cuantificar."
+      "id": "n-thj32y",
+      "text": "Vuelos de regreso a casa"
     }
   ]
 }
