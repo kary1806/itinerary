@@ -44,7 +44,7 @@
           "id": "a-xysv8m",
           "title": "Hotel Airbnb",
           "time": "17:01",
-          "provider": "booking"
+          "provider": "airbnb"
         }
       ]
     },
@@ -277,7 +277,8 @@
         {
           "id": "a22",
           "title": "Regreso a casa",
-          "provider": "vuelo"
+          "provider": "vuelo",
+          "pending": true
         }
       ]
     }
