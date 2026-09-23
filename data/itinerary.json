@@ -1,0 +1,291 @@
+{
+  "title": "Noviembre por Colombia",
+  "subtitle": "Del 1 al 17 de noviembre de 2026. Cuatro paradas en diecisiete días.",
+  "legs": [
+    {
+      "id": "manizales",
+      "name": "Manizales",
+      "place": "Eje Cafetero",
+      "color": "#2E6B3F"
+    },
+    {
+      "id": "neiva",
+      "name": "Neiva y Tatacoa",
+      "place": "Huila",
+      "color": "#B85C2C"
+    },
+    {
+      "id": "tunja",
+      "name": "Tunja",
+      "place": "Boyacá",
+      "color": "#C2932A"
+    },
+    {
+      "id": "bogota",
+      "name": "Bogotá",
+      "place": "Sabana",
+      "color": "#3B5F8A"
+    }
+  ],
+  "days": [
+    {
+      "id": "d01",
+      "date": "2026-11-01",
+      "legId": "manizales",
+      "activities": [
+        {
+          "id": "a01",
+          "time": "17:00",
+          "title": "Llegada a Manizales",
+          "note": "Avisar al hotel para el transporte desde el aeropuerto.",
+          "provider": "vuelo"
+        }
+      ]
+    },
+    {
+      "id": "d02",
+      "date": "2026-11-02",
+      "legId": "manizales",
+      "activities": [
+        {
+          "id": "a02",
+          "time": "06:00",
+          "title": "Nevado del Ruiz y termales",
+          "note": "De 6:00 am a 5:00 pm.",
+          "provider": "getyourguide"
+        }
+      ]
+    },
+    {
+      "id": "d03",
+      "date": "2026-11-03",
+      "legId": "manizales",
+      "activities": [
+        {
+          "id": "a03",
+          "time": "09:00",
+          "title": "Tour de café",
+          "note": "Toca ir al lugar. Ecoparque Recinto del Pensamiento.",
+          "provider": "getyourguide"
+        },
+        {
+          "id": "a04",
+          "title": "Centro histórico",
+          "note": "Iglesia, cementerio y Chipre."
+        }
+      ]
+    },
+    {
+      "id": "d04",
+      "date": "2026-11-04",
+      "legId": "manizales",
+      "activities": [
+        {
+          "id": "a05",
+          "time": "07:00",
+          "title": "Marsella, pueblo cafetero",
+          "provider": "civitatis"
+        }
+      ]
+    },
+    {
+      "id": "d05",
+      "date": "2026-11-05",
+      "legId": "neiva",
+      "activities": [
+        {
+          "id": "a06",
+          "time": "10:35",
+          "title": "Vuelo Manizales a Neiva",
+          "note": "Llegamos a Neiva a las 5:00 pm.",
+          "provider": "vuelo"
+        },
+        {
+          "id": "a07",
+          "title": "Hotel en Neiva",
+          "provider": "booking"
+        }
+      ]
+    },
+    {
+      "id": "d06",
+      "date": "2026-11-06",
+      "legId": "neiva",
+      "activities": [
+        {
+          "id": "a08",
+          "time": "08:30",
+          "title": "Excursión al desierto de la Tatacoa"
+        },
+        {
+          "id": "a09",
+          "title": "Ir al hotel GHL"
+        }
+      ]
+    },
+    {
+      "id": "d07",
+      "date": "2026-11-07",
+      "legId": "neiva",
+      "activities": [
+        {
+          "id": "a10",
+          "time": "15:00",
+          "title": "Hotel del desierto",
+          "note": "Noche en la Tatacoa."
+        }
+      ]
+    },
+    {
+      "id": "d08",
+      "date": "2026-11-08",
+      "legId": "neiva",
+      "activities": [
+        {
+          "id": "a11",
+          "title": "Descanso"
+        }
+      ]
+    },
+    {
+      "id": "d09",
+      "date": "2026-11-09",
+      "legId": "neiva",
+      "activities": [
+        {
+          "id": "a12",
+          "title": "Regreso a Neiva",
+          "note": "Hotel GHL.",
+          "provider": "booking"
+        }
+      ]
+    },
+    {
+      "id": "d10",
+      "date": "2026-11-10",
+      "legId": "tunja",
+      "activities": [
+        {
+          "id": "a13",
+          "time": "08:25",
+          "title": "Vuelo Neiva a Bogotá",
+          "note": "Llega a las 9:25 am.",
+          "provider": "vuelo"
+        },
+        {
+          "id": "a14",
+          "title": "Bus a Tunja",
+          "note": "Falta reservar el bus.",
+          "provider": "bus",
+          "pending": true
+        },
+        {
+          "id": "a15",
+          "title": "Conocer el pueblo"
+        }
+      ]
+    },
+    {
+      "id": "d11",
+      "date": "2026-11-11",
+      "legId": "tunja",
+      "activities": [
+        {
+          "id": "a16",
+          "title": "Tour de pueblos",
+          "note": "Hotel por Booking.",
+          "provider": "civitatis"
+        }
+      ]
+    },
+    {
+      "id": "d12",
+      "date": "2026-11-12",
+      "legId": "tunja",
+      "activities": [
+        {
+          "id": "a17",
+          "title": "Conocer el pueblo"
+        }
+      ]
+    },
+    {
+      "id": "d13",
+      "date": "2026-11-13",
+      "legId": "bogota",
+      "activities": [
+        {
+          "id": "a18",
+          "title": "Bus a Bogotá",
+          "provider": "bus"
+        }
+      ]
+    },
+    {
+      "id": "d14",
+      "date": "2026-11-14",
+      "legId": "bogota",
+      "activities": [
+        {
+          "id": "a19",
+          "title": "Tour de vino"
+        }
+      ]
+    },
+    {
+      "id": "d15",
+      "date": "2026-11-15",
+      "legId": "bogota",
+      "activities": [
+        {
+          "id": "a20",
+          "time": "12:00",
+          "title": "Tren de la Sabana",
+          "note": "Falta reservar.",
+          "pending": true
+        }
+      ]
+    },
+    {
+      "id": "d16",
+      "date": "2026-11-16",
+      "legId": "bogota",
+      "activities": [
+        {
+          "id": "a21",
+          "title": "Día libre"
+        }
+      ]
+    },
+    {
+      "id": "d17",
+      "date": "2026-11-17",
+      "legId": "bogota",
+      "activities": [
+        {
+          "id": "a22",
+          "title": "Regreso a casa",
+          "provider": "vuelo"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n01",
+      "text": "Pendiente: reservar el bus a Tunja."
+    },
+    {
+      "id": "n02",
+      "text": "Pendiente: reservar el tren del 15 de noviembre (12 pm)."
+    },
+    {
+      "id": "n03",
+      "text": "Avisar al hotel de Manizales la hora de llegada para el transporte."
+    },
+    {
+      "id": "n04",
+      "text": "Rate + comisión: rate × 20 % (200). La comisión (fee) queda por cuantificar."
+    }
+  ]
+}
