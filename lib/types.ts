@@ -1,5 +1,6 @@
 export type Provider =
   | "booking"
+  | "airbnb"
   | "getyourguide"
   | "civitatis"
   | "vuelo"

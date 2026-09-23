@@ -26,7 +26,7 @@ Estructura de `data/itinerary.json`:
 - `legs`: tramos del viaje, con `id`, `name`, `place` y `color`.
 - `days`: un objeto por día con `date` (AAAA-MM-DD), `legId` y `activities`.
 - Cada actividad tiene `title`, y opcionalmente `time` (HH:MM), `note`,
-  `provider` (`booking`, `getyourguide`, `civitatis`, `vuelo`, `bus`) y `pending`.
+  `provider` (`booking`, `airbnb`, `getyourguide`, `civitatis`, `vuelo`, `bus`) y `pending`.
 
 ## Desplegar en Vercel
 

@@ -7,6 +7,7 @@ const STORAGE_KEY = "viaje-noviembre:itinerary:v1";
 
 const PROVIDER_LABEL: Record<Exclude<Provider, "">, string> = {
   booking: "Booking",
+  airbnb: "Airbnb",
   getyourguide: "GetYourGuide",
   civitatis: "Civitatis",
   vuelo: "Vuelo",
